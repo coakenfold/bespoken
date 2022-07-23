@@ -1,17 +1,8 @@
-export interface ProductInterface {
-  name: string;
-  image: string;
-  description: string;
-  brand: string;
-  category: string;
-  price: number;
-  countInStock: number;
-  rating: number;
-  numReviews: number;
-}
+import { ProductInterface } from "./typescript/ProductsTypescript";
 
 export const products = [
   {
+    _id: 0,
     name: "Airpods Wireless Bluetooth Headphones",
     image: "/images/airpods.jpg",
     description:
@@ -24,6 +15,7 @@ export const products = [
     numReviews: 0,
   },
   {
+    _id: 1,
     name: "iPhone 11 Pro 256GB Memory",
     image: "/images/phone.jpg",
     description:
@@ -36,6 +28,7 @@ export const products = [
     numReviews: 0,
   },
   {
+    _id: 2,
     name: "Cannon EOS 80D DSLR Camera",
     image: "/images/camera.jpg",
     description:
@@ -48,6 +41,7 @@ export const products = [
     numReviews: 0,
   },
   {
+    _id: 3,
     name: "Sony Playstation 4 Pro White Version",
     image: "/images/playstation.jpg",
     description:
@@ -60,6 +54,7 @@ export const products = [
     numReviews: 0,
   },
   {
+    _id: 4,
     name: "Logitech G-Series Gaming Mouse",
     image: "/images/mouse.jpg",
     description:
@@ -72,6 +67,7 @@ export const products = [
     numReviews: 0,
   },
   {
+    _id: 5,
     name: "Amazon Echo Dot 3rd Generation",
     image: "/images/alexa.jpg",
     description:
