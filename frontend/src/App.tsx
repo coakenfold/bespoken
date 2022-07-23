@@ -11,7 +11,6 @@ function App() {
       <Header />
       <main>
         <Container>
-          <h1>Main</h1>
           <HomeScreen />
         </Container>
       </main>
